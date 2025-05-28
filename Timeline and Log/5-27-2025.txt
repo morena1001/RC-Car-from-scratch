@@ -1,0 +1,4 @@
+The previous model to test the bevel gears had a miscalculation where the driveshaft bevel gear sat slightly lower than the axle bevel gear, resulting in slipping, partly also due to the small teeth. 
+
+Two new models were printed, one with tire holders that sat 0.5 mm lower, and another whose tire holders sat 1 mm lower. The second model fared better than the first model, where manually moving the bevel gear lessened the slipping. But upon connecting it to the STM32 MCU, the gears continued to slip. I think the main issue is that the gear's teeth are not large enough to properly grip and move each other. I'm going to have to research how to properly angle teeth and gears for the maximum interactable surface area.
+
